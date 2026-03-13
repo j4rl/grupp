@@ -1,4 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
   :root{
     --font:'Poppins', system-ui;
   }
@@ -106,7 +107,7 @@
   }
 
   .name-count {
-      font-family: 'Syne Mono', monospace;
+      font-family: var(--font);
       font-size: 0.75rem;
       color: var(--muted);
       margin-top: 10px;
@@ -130,7 +131,7 @@
       font-size: 0.78rem;
       color: var(--muted);
       margin-bottom: 6px;
-      font-family: 'Syne Mono', monospace;
+      font-family: var(--font);
   }
 
   .mode-toggle {
@@ -146,7 +147,7 @@
       background: none;
       border: none;
       color: var(--muted);
-      font-family: 'Syne', sans-serif;
+      font-family: var(--font);
       font-size: 0.82rem;
       font-weight: 600;
       padding: 10px;
@@ -185,7 +186,7 @@
   .number-input-wrap span {
       flex: 1;
       text-align: center;
-      font-family: 'Syne Mono', monospace;
+      font-family: var(--font);
       font-size: 1.1rem;
       font-weight: 600;
       color: var(--accent);
@@ -194,7 +195,7 @@
   .predict-text {
       font-size: 0.75rem;
       color: var(--muted);
-      font-family: 'Syne Mono', monospace;
+      font-family: var(--font);
       margin-top: 6px;
       min-height: 1.2em;
   }
@@ -248,7 +249,7 @@
       background: var(--accent);
       color: #0e0e12;
       font-size: 0.7rem;
-      font-family: 'Syne Mono', monospace;
+      font-family: var(--font);
       padding: 3px 8px;
       border-radius: 20px;
       font-weight: 700;
@@ -338,7 +339,7 @@
       background: var(--surface2);
       border: 1px solid var(--border);
       color: var(--text);
-      font-family: 'Syne Mono', monospace;
+      font-family: var(--font);
       font-size: 0.82rem;
       padding: 12px 20px;
       border-radius: 40px;
@@ -464,7 +465,7 @@
       margin-top: 14mm;
       font-size: 7pt;
       color: #aaa;
-      font-family: monospace;
+      font-family: var(--font);
   }
 
   .theme-btn {
@@ -472,7 +473,7 @@
       border: 1px solid var(--border);
       border-radius: 6px;
       color: var(--text);
-      font-family: 'Syne', sans-serif;
+      font-family: var(--font);
       font-size: 0.78rem;
       padding: 5px 10px;
       cursor: pointer;
@@ -506,7 +507,7 @@
       font-size: 0.82rem;
       padding: 20px 0;
       text-align: center;
-      font-family: 'Syne Mono', monospace;
+      font-family: var(--font);
   }
 
   .copy-row {
