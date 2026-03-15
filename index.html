@@ -23,7 +23,7 @@
       </div>
       <div>
         <h1>Grupp<span>indelning</span></h1>
-        <div class="subtitle">// slumpmässig gruppgenerator</div>
+        <div class="subtitle">// slumpmässig gruppgenerator by &copy;j4rl</div>
       </div>
       <div class="theme-toggle" id="themeToggle">
         <button onclick="setTheme('light')" title="Ljust läge">☀️</button>
@@ -167,6 +167,20 @@
   </div>
 
   <div class="toast" id="toast"></div>
+
+  <div id="importModal" class="ia-backdrop" style="display:none;" onclick="if(event.target===this)closeImportModal()">
+    <div class="ia-modal">
+      <div class="ia-modal-head">
+        <span>📊 Importanalys</span>
+        <button class="ia-close" onclick="closeImportModal()">×</button>
+      </div>
+      <div id="importModalBody" class="ia-modal-body"></div>
+      <div class="ia-modal-foot">
+        <button class="btn" onclick="confirmImport()">✓ Importera</button>
+        <button class="btn btn-ghost" onclick="closeImportModal()">Avbryt</button>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
